@@ -1,0 +1,74 @@
+
+  header{
+    text-align:center;
+    color:  rgba(1, 1, 78, 0.959);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("BG.jpeg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display:inline-block;
+    height:70px;
+    width:100%;
+  
+    top: 0px;
+    left:0px;
+    right:0px;
+  }
+h4,label{
+  color: crimson;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+  button
+  {
+    background-color:   rgba(3, 37, 129, 0.959);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  body {
+    background-color: rgb(5, 121, 156);
+    color:  rgba(1, 1, 78, 0.959);
+  }
+  footer{
+    text-align:center;
+    color:  rgba(1, 1, 78, 0.959);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("BG.jpeg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display:inline-block;
+    height:50px;
+    width:100%;
+  
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    position:fixed;
+  }
+  #container {
+    padding-left:20%;
+    padding-right: 20%;
+    align-content: center;
+    margin-top: 5%;
+    vertical-align: middle;
+    align-items:  center;
+    color:  rgba(1, 1, 78, 0.959);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #result {
+    padding-top: 5%;
+    padding-bottom: 10%;
+   
+    align-content: center;
+    color:  rgba(0, 0, 0, 0.959);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  input
+  {
+width:80px;
+    
+  }

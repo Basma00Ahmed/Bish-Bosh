@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bish-Bosh 1</title>
+  </head>
+  <body>
+    <h3>Bish-Bosh console version</h3>
+    <script>
+      var loopValue = 100;
+      var divisionNumber1 = 3;
+      var divisionNumber2 = 4;
+      var text = "";
+      var i;
+      for (i = 1; i <= loopValue; i++) {
+        if (i % divisionNumber1 == 0 && i % divisionNumber2 == 0) {
+          text += "Bish-Bosh" + ", ";
+        } else if (i % divisionNumber1 == 0) {
+          text += "Bish" + ", ";
+        } else if (i % divisionNumber2 == 0) {
+          text += "Bosh" + ", ";
+        } else {
+          text += i + ", ";
+        }
+      }
+      text=text.slice(0,text.length-2);
+      console.info(text);
+    </script>
+  </body>
+</html>

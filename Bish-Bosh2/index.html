@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bish-Bosh 2.0</title>    </meta>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+  <header class="navbar-fixed-top">
+    <h1>Bish-Bosh 2.0</h1>
+</header>
+    <div id="container">
+      
+      <div class="row">
+        <div class="col-12">
+          <h4>Purpose : </h4>
+      <p id="purpose">
+        <p>Bish-Bosh lists all numbers between 1 and Loop value, but with some exceptions: </p>
+        <ul><li>If the number is evenly divisible by the first number that should be entered, 
+      ‘Bish’ is listed instead of the number.</li> 
+      <li>If the number is evenly divisible by the second number that should be entered, 
+        ‘Bosh’ is listed instead of the number. </li>
+      <li>If the number is evenly divisible by both the first and the second numbers that 
+      should be entered, "Bish-Bosh" is listed instead of the number.</li></ul>
+      </p>
+      </div></div> 
+            <div class="row">
+              <label  class="col-7 col-form-label">Loop value: </label>
+              <div class="col-5">
+                <input type="number"  id="loopValue" value="100" min="1" max="1000">
+              </div>
+            </div>
+            <div class="row">
+                <label  class="col-7 col-form-label">First division number : </label>
+                <div class="col-5">
+                  <input type="number"  id="divNumber1" value="3" min="1" max="100">
+                </div>
+              </div>
+              <div class="row">
+                <label  class="col-7 col-form-label">Second division number : </label>
+                <div class="col-5">
+                  <input type="number"  id="divNumber2" value="4" min="1" max="100">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">  <button id="btn1" >Show Result</button></div>
+                <div class="col-4"></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+              <p id="result"></p></div></div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="main.js"></script>
+
+<footer>
+    <small>© Copyright 2021 | Designed by Basma Ahmed </small>
+</footer>
+</body>
+</html>
