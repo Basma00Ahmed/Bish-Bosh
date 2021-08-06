@@ -1,6 +1,5 @@
 
   header{
-    text-align:center;
     color:  rgba(1, 1, 78, 0.959);
     vertical-align: middle;
     background-repeat: no-repeat;
@@ -32,7 +31,6 @@ h4,label{
     color:  rgba(1, 1, 78, 0.959);
   }
   footer{
-    text-align:center;
     color:  rgba(1, 1, 78, 0.959);
     vertical-align: middle;
     background-repeat: no-repeat;
@@ -69,6 +67,6 @@ h4,label{
   }
   input
   {
-width:80px;
+     width:80px;
     
   }
